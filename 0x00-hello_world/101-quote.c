@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	char myStr[] = "and that peice of art is useful\" - Dora Korpar, 2015-10-19\n";
+	char a[]= "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(STDOUT_FILENO, myStr, strlen(myStr));
+	write(STDOUT_FILENO, a, strlen(a));
 	return (1);
 }

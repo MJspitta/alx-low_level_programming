@@ -5,3 +5,4 @@
 4. Write a C program that prints a statement using puts function
 5. Write a C program that prints a statement using printf function
 6. Print the size of various types on the computer it is compiled and run on
+100. Generate assembly code of a C code in Intel syntax

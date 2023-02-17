@@ -4,3 +4,4 @@
 3. Compile a C file and create an executable 
 4. Write a C program that prints a statement using puts function
 5. Write a C program that prints a statement using printf function
+6. Print the size of various types on the computer it is compiled and run on

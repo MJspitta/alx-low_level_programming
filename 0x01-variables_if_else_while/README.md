@@ -4,3 +4,4 @@
 3. Print alphabet in lower and upper case
 4. Print alphabet without q and e
 5. Print all single digit numbers of base 10 starting from 0
+6. Print all single digit numbers of base 10 starting from 0

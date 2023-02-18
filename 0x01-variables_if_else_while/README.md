@@ -6,3 +6,4 @@
 5. Print all single digit numbers of base 10 starting from 0
 6. Print all single digit numbers of base 10 starting from 0
 7. Print lower case alphabet in reverse
+8. Print all the numbers of base 16 in lowercase

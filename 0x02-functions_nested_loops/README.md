@@ -9,3 +9,4 @@
 8. Print every minute of the day
 9. Print a 9 times table
 10. Add two integers and return result
+11. Print all natural numbers from n to 98

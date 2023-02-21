@@ -4,3 +4,4 @@
 3. Check for lowercase characters
 4. Check for alphabetic character
 5. Print the sign of a number
+6. Compute absolute value of integer

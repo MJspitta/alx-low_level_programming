@@ -6,3 +6,4 @@
 5. Print the sign of a number
 6. Compute absolute value of integer
 7. Print last digit of a number
+8. Print every minute of the day

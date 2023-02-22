@@ -8,7 +8,7 @@
 int main(void)
 {
 	int i;
-	long unsigned int fibonacci[50];
+	long unsigned int fibonacci[98];
 
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;

@@ -8,19 +8,19 @@
 int main(void)
 {
 	int i;
-	long int fibonacci[50];
+	long unsigned int fibonacci[50];
 
 	fibonacci[0] = 1;
 	fibonacci[1] = 2;
-	printf("%ld, %ld, ", fibonacci[0], fibonacci[1]);
+	printf("%lu, %lu, ", fibonacci[0], fibonacci[1]);
 
 	for (i = 2; i < 98; i++)
 	{
 		fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
 		if (i == 97)
-			printf("%ld\n", fibonacci[i]);
+			printf("%lu\n", fibonacci[i]);
 		else
-			printf("%ld, ", fibonacci[i]);
+			printf("%lu, ", fibonacci[i]);
 	}
 
 	return (0);

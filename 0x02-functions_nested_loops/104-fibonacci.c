@@ -8,20 +8,44 @@
 int main(void)
 {
 	int i;
-	long unsigned int fibonacci[98];
+	unsigned long fib1 = 0, fib2 = 1, sum;
+	unsigned long fib1_h1, fib1_h2, fib2_h1, fib2_h2;
+	unsigned long h1, h2;
 
-	fibonacci[0] = 1;
-	fibonacci[1] = 2;
-	printf("%lu, %lu, ", fibonacci[0], fibonacci[1]);
-
-	for (i = 2; i < 98; i++)
+	for (i = 0; i < 92; i++)
 	{
-		fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
-		if (i == 97)
-			printf("%lu\n", fibonacci[i]);
-		else
-			printf("%lu, ", fibonacci[i]);
+		sum = fib1 + fib2;
+		printf("%lu, ", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
 	}
+
+	fib1_h1 = fib1 / 10000000000;
+	fib2_h1 = fib2 / 10000000000;
+	fib1_h2 = fib1 % 10000000000;
+	fib2_h2 = fib2 % 10000000000;
+
+	for (i = 93; i < 99; i++)
+	{
+		h1 = fib1_h1 + fib2_h1;
+		h2 = fib1_h2 + fib2_h2;
+		if (fib1_h2 + fib2_h2 > 9999999999)
+		{
+			h1 += 1;
+			h2 %= 10000000000;
+		}
+
+		printf("%lu%lu", h1, h2);
+		if (i != 98)
+			printf(", ");
+
+		fib1_h1 = fib2_h1;
+		fib1_h2 = fib2_h2;
+		fib2_h1 = h1;
+		fib2_h2 = h2;
+	}
+	printf("\n");
 
 	return (0);
 }

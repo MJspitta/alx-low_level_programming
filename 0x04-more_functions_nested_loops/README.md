@@ -8,3 +8,4 @@
 7. Draw a diagonal line in terminal
 8. Print a square
 9. Fizz Buzz
+10. Print triangle

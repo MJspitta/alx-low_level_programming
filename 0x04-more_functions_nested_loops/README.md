@@ -7,3 +7,4 @@
 6. Draw a straight line in terminal
 7. Draw a diagonal line in terminal
 8. Print a square
+9. Fizz Buzz

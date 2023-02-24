@@ -4,3 +4,4 @@
 3. Print numbers from 0 to 9
 4. Print numbers 0 to 9 excluding 2 and 4
 5. Print 0 to 14, 10 times
+6. Draw a straight line in terminal

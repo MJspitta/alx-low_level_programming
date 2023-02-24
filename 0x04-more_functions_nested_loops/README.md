@@ -9,3 +9,4 @@
 8. Print a square
 9. Fizz Buzz
 10. Print triangle
+100. Largest prime factor of a number

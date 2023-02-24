@@ -6,3 +6,4 @@
 5. Print 0 to 14, 10 times
 6. Draw a straight line in terminal
 7. Draw a diagonal line in terminal
+8. Print a square

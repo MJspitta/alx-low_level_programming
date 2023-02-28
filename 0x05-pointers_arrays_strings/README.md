@@ -6,3 +6,4 @@
 5. Reverse a string
 6. Print every other character of a string starting with the first char
 7. Print half of string
+8. Print elements of an array of integers

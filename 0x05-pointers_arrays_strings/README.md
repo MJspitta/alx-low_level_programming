@@ -4,3 +4,4 @@
 3. Print a string
 4. Print string in reverse
 5. Reverse a string
+6. Print every other character of a string starting with the first char

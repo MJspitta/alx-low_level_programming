@@ -8,3 +8,4 @@
 7. Print half of string
 8. Print elements of an array of integers
 9. Copy a string
+100. Convert string to integer

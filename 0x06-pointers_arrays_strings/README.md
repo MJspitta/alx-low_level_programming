@@ -3,3 +3,4 @@
 2. Function that copies a string
 3. Function that compares two strings
 4. Function that reverses the content of a array of integers
+5. Changes all lowercase letters of a string to uppercase

@@ -7,3 +7,4 @@
 6. Capitalize all words of a string
 7. Encode a string into 1337
 100. Encode a string using rot13
+101. Function that prints an integer

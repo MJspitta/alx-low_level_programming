@@ -8,3 +8,4 @@
 7. Encode a string into 1337
 100. Encode a string using rot13
 101. Function that prints an integer
+102. Add one line to code to print a[2] = 98

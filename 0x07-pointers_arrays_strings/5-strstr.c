@@ -5,7 +5,7 @@
  * @haystack: string pointer
  * @needle: substring pointer
  *
- * return: haystack
+ * Return: haystack
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -13,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 
 	if (needle[0] == '\0')
 	{
-		return haystack;
+		return (haystack);
 	}
 
 	for (i = 0; haystack[i] != '\0'; i++)

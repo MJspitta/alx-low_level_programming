@@ -7,3 +7,4 @@
 7. Function that prints the chessboard
 8. Function that prints the sum of the two diagonals of a square matrix of integers
 100. Function that sets the value of a pointer to a char
+101. Create a file that contains the password for the crackme2 executable

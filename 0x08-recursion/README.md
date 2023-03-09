@@ -5,3 +5,4 @@
 4. Function that returns the value of x raised to the power y
 5. Function that returns the natural square root of a number
 6. Function that returns 1 if the input integer is a prime number
+100. Function that returns 1 if a string is a palindrome

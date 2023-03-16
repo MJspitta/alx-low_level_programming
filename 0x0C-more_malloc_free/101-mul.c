@@ -8,8 +8,8 @@ void handle_error(void);
 
 /**
  * main - multiplies two positive numbers
- * argc: argument count
- * argv: argument vector
+ * @argc: argument count
+ * @argv: argument vector
  *
  * Return: 0 (Success)
  */

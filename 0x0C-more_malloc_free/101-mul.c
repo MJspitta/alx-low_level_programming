@@ -27,9 +27,9 @@ int main(int argc, char *argv[])
 	result = malloc(sizeof(int) * len);
 	if (!result)
 		return (1);
-	for (i =0; i <= len1 + len2; i++)
+	for (i = 0; i <= len1 + len2; i++)
 		result[i] = 0;
-	for (len1 = len1 - 1; len1 >=0; len1--)
+	for (len1 = len1 - 1; len1 >= 0; len1--)
 	{
 		dgt1 = s1[len1] - '0';
 		co = 0;
@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 		if (a)
 			_putchar(result[i] + '0');
 	}
-	if(!a)
+	if (!a)
 		_putchar('0');
 	_putchar('\n');
 	free(result);

@@ -3,3 +3,4 @@
 2. Function that allocates memory for an array
 3. Function that creates an array of integers
 100. Function that reallocates a memory block
+101. Program that multiplies two positive numbers

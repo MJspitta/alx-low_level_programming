@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include <limits.h>
 #include "main.h"
 
 /**
@@ -15,6 +16,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	if (nmemb == 0 || size == 0)
 		return(NULL);
+	if (size >= UINT_MAX / nmemb || nmemb >= UINT_MAX / size)
+		return (NULL);
 
 	ptr = malloc (nmemb * size);
 	if (ptr == NULL)

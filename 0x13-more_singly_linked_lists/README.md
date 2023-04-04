@@ -3,3 +3,4 @@
 2. Function that adds a new node at the beginning of a list
 3. Function that adds a new node at the end of a list
 4. Function that frees a list
+5. Function that frees a list and sets head to NULL

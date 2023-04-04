@@ -4,3 +4,4 @@
 3. Function that adds a new node at the end of a list
 4. Function that frees a list
 5. Function that frees a list and sets head to NULL
+6. Function that deletes the head node and returns its data

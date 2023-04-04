@@ -2,21 +2,21 @@
 
 /**
  * print_listint - print all elements of a list
- * @h: pointer to node
+ * @h: node to pointer
  *
- * Return: number of nodes
+ * Return: the number of nodes
  */
 size_t print_listint(const listint_t *h)
 {
-	unsigned int i;
+	int nds;
 
-	i = 0;
+	nds = 0;
 	while (h != NULL)
 	{
 		printf("%d\n", h->n);
-		i++;
+		nds++;
 		h = h->next;
 	}
 
-	return (i);
+	return (nds);
 }

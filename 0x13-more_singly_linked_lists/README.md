@@ -10,3 +10,4 @@
 9. Function that inserts a new node at a given position
 10. Function that deletes the node at index of a linked list
 100. Function that reverses a linked list
+101. Function that prints linked list (safe version)

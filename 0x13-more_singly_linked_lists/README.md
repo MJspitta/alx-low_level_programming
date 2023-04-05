@@ -11,3 +11,4 @@
 10. Function that deletes the node at index of a linked list
 100. Function that reverses a linked list
 101. Function that prints linked list (safe version)
+102. Function that frees a list (safe version)

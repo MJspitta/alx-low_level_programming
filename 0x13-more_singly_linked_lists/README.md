@@ -8,3 +8,4 @@
 7. Function that returns the nth node of a linked list
 8. Function that returns the sum of all the data (n) of a linked list
 9. Function that inserts a new node at a given position
+10. Function that deletes the node at index of a linked list

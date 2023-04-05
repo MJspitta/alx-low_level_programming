@@ -12,3 +12,4 @@
 100. Function that reverses a linked list
 101. Function that prints linked list (safe version)
 102. Function that frees a list (safe version)
+103. Function that finds the loop in a linked list

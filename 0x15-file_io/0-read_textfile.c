@@ -12,12 +12,12 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	int fildes;
 	char *buffer;
 	ssize_t n_read, n_write;
-	
+
 	if (filename == NULL)
 		return (0);
 
 	fildes = open(filename, O_RDONLY);
-	if(fildes == -1)
+	if (fildes == -1)
 		return (0);
 
 	buffer = malloc(sizeof(char) * letters);

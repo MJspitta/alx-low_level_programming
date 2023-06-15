@@ -9,3 +9,5 @@
 3. Add node at the end
 
 4. Free list
+
+5. Get node at index

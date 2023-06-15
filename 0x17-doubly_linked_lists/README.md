@@ -15,3 +15,5 @@
 6. Sum list
 
 7. Insert at index
+
+8. Delete at index

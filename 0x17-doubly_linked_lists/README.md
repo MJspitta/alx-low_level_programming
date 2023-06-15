@@ -13,3 +13,5 @@
 5. Get node at index
 
 6. Sum list
+
+7. Insert at index

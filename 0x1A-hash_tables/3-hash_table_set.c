@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * free_node_new: to free new node
+ * free_node_new - to free new node
  * @node: new node
  *
  * Return: nothing

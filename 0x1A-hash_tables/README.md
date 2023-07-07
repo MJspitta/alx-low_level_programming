@@ -7,3 +7,5 @@
 2. key -> index
 
 3. >>> ht['betty'] = 'cool'
+
+4. >>> ht['betty']

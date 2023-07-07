@@ -13,3 +13,5 @@
 5. >>> print(ht)
 
 6. >>> del ht
+
+7. $ht['Betty'] = 'Cool'

@@ -9,3 +9,5 @@
 3. >>> ht['betty'] = 'cool'
 
 4. >>> ht['betty']
+
+5. >>> print(ht)

@@ -12,14 +12,14 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 	size_t jmp, i;
 	listint_t *curr, *prev;
 
-	if (list == NULL || size == 0)
+	if (list == NULL)
 		return (NULL);
 	jmp = sqrt(size);
 	curr = list;
 	while (curr->next != NULL && curr->n < value)
 	{
 		prev = curr;
-		for (i = 0; curr->next != NULL && i < jmp; i++)
+		for (i = 0; curr->next != NULL && i < jmp && curr->n < value; i++)
 			curr = curr->next;
 		printf("Value checked at index [%lu] = [%d]\n", curr->index, curr->n);
 	}
@@ -28,7 +28,7 @@ listint_t *jump_list(listint_t *list, size_t size, int value)
 	while (prev->index <= curr->index)
 	{
 		printf("Value checked at index [%lu] = [%d]\n",
-				prev->index, curr->n);
+				prev->index, prev->n);
 		if (prev->n == value)
 			return (prev);
 		prev = prev->next;
